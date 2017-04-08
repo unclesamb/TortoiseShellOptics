@@ -17,13 +17,14 @@ p {
 /* Hero/Header */
 
 .hero {
-  background-image: url("../images/glasses-bg.png");
+  background: url("../images/glasses-bg.png") no-repeat center center;
   background-size: cover;
   height: 31rem;
   display; flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
+  padding-top: 1rem;
 }
 
 .header {
@@ -33,7 +34,7 @@ p {
   background-color: cadetblue;
   font-size: 1rem;
   padding: 1rem 0;
-  margin-top: 1rem; /*need to fix top margin*/
+  position: relative;
 }
 
 .logo img {
@@ -54,9 +55,17 @@ p {
   padding: 0 1rem;
 }
 
+.hero-headline-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .hero-headline {
-  background-color: white; 
-  margin-top: 10rem
+  background-color: white;
+  margin-top: 10rem;
+  display: inline-block;
+  text-align: right;
+  margin-right: -2rem;
 }
 
 .hero-headline h2 {
@@ -64,7 +73,6 @@ p {
   font-weight: bold;
   font-size: 2rem;
   text-transform: uppercase;
-  display: inline-block;
 }
 
 /*Benefits*/
