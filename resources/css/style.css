@@ -33,6 +33,7 @@ p {
   align-items: center;
   background-color: cadetblue;
   font-size: 1rem;
+  color: white;
   padding: 1rem 0;
   position: relative;
 }
@@ -53,6 +54,10 @@ p {
 
 .navigation li {
   padding: 0 1rem;
+}
+
+.mobile-nav {
+  display: none;
 }
 
 .hero-headline-container {
@@ -178,7 +183,86 @@ footer span {
   }
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 650px) {
 
+  .hero {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .logo span {
+    display: none;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+  }
+
+  .hero-headline-container {
+    display: block;
+  }
+
+  .hero-headline {
+    margin: 9rem 0 0 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-headline h2 {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .benefits {
+    flex-direction: column;
+    align-items: center;
+    padding: 3.77rem 0;
+  }
+
+  .benefit-item {
+    margin: 1.54rem;
+  }
+
+  .benefit-item h4 {
+    font-size: .77rem
+  }
+
+  .information {
+    flex-direction: column;
+  }
+
+  .info-item {
+    align-items: center;
+    width: 100%;
+    margin: 0 0 4rem 0;
+  }
+
+  .info-item h3 {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .info-item p {
+    padding: 0 .2rem;
+  }
+
+  footer span {
+    display: none;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+  footer img {
+    margin: 4rem auto;
+  }
 
 }
