@@ -1,0 +1,147 @@
+/*Global*/
+
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/* Hero/Header */
+
+.hero {
+  background-image: url("../images/glasses-bg.png");
+  background-size: cover;
+  height: 31rem;
+  display; flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+  font-size: 1rem;
+  padding: 1rem 0;
+  margin-top: 1rem; /*need to fix top margin*/
+}
+
+.logo img {
+  height: 1.5rem;
+  padding: 0 1rem 0 2rem;
+}
+
+.logo span {
+  padding-right: 1rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation li {
+  padding: 0 1rem;
+}
+
+.hero-headline {
+  background-color: white; 
+  margin-top: 10rem
+}
+
+.hero-headline h2 {
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/*Benefits*/
+
+.benefits {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.benefit-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+  width: 5rem;
+}
+
+.benefit-item img {
+  height: auto;
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.paper-img img {
+  width: 3.5rem;
+}
+
+.benefit-item h4 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+/*Information*/
+
+.information {
+  display: flex;
+  justify-content: center;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 35%;
+  margin: 0 2.5rem 4rem 2.5rem;
+}
+
+.info-item h3 {
+  background-color: cadetblue;
+  width: 10rem;
+  padding: .5rem 0 .5rem 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.info-item p {
+
+}
+
+/*Footer*/
+
+footer {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1rem;
+  margin: 4rem 1rem 4rem 3rem;
+}
+
+footer span {
+  font-size: 1rem;
+}
