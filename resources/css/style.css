@@ -153,3 +153,32 @@ footer img {
 footer span {
   font-size: 1rem;
 }
+
+/*Media Queries*/
+
+@media only screen and (max-width: 1024px) {
+
+  .container {
+    width: 100%;
+  }
+
+  .hero {
+    padding-top: 0;
+    height: 22rem;
+  }
+
+  .hero-headline {
+    margin-top: 5rem;
+    margin-left: 2rem;
+  }
+
+  .hero-headline h2 {
+    padding: .75rem 4rem;
+    font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+
+
+}
